@@ -74,6 +74,9 @@ module.exports = {
     'vue/v-on-event-hyphenation': ['warn', 'always', {
       autofix: true,
       ignore: []
-    }]
+    }],
+    'comma-dangle': 'off',
+    semi: 'off',
+    'no-trailing-spaces': 'off'
   }
 }
