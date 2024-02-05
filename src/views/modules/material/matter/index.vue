@@ -75,6 +75,7 @@ const option = ref({
     {
       label: '内容',
       prop: 'content',
+      type: 'textarea',
       overHidden: true,
       rules: [
         {
